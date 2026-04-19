@@ -38,14 +38,14 @@ export default function Hero() {
         </div>
         <div ref={titleRef}>
           <div className="text-[10px] md:text-xs tracking-[0.4em] uppercase text-charcoal/60 mb-5">
-            Est. in the Himalayas
+            Est. in Panchkhal, Kavrepalanchok
           </div>
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-charcoal tracking-tight leading-[0.95]">
-            United Hope
-            <span className="block italic font-normal text-charcoal/80">Nepal</span>
+            Grande Social
+            <span className="block italic font-normal text-charcoal/80">Foundation</span>
           </h1>
           <div className="mt-6 text-xs md:text-sm tracking-[0.3em] uppercase text-charcoal/50">
-            From the mountains · to the plains
+            From classrooms · to communities
           </div>
         </div>
       </div>

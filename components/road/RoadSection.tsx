@@ -47,14 +47,14 @@ export default function RoadSection() {
       <div className="relative overflow-hidden">
         <div ref={introRef} className="relative max-w-5xl mx-auto text-center px-6 pt-12 md:pt-16 pb-24 md:pb-32">
           <div className="text-[11px] md:text-xs tracking-[0.4em] uppercase text-charcoal/50 mb-6">
-            A Journey Through Nepal
+            A Journey Through Panchkhal
           </div>
           <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-charcoal leading-[1.02] tracking-tight">
-            One country,<br />
-            countless <span className="italic text-charcoal/70">roads</span> —
+            One municipality,<br />
+            five <span className="italic text-charcoal/70">schools</span> —
           </h2>
           <p className="mt-8 font-sans text-lg md:text-xl text-charcoal/65 max-w-2xl mx-auto">
-            and the people who walk them. Scroll through six stops, from the snowline of the Himalayas down to the plains of the Terai.
+            and the children who walk through their doors. Scroll through six stories where education, livelihoods, and health come together.
           </p>
         </div>
       </div>

@@ -104,7 +104,7 @@ export default function HamburgerMenu({ open, onClose, onSelect }: HamburgerMenu
           </ul>
 
           <div className="mt-16 pt-8 border-t border-charcoal/10 text-xs tracking-[0.3em] uppercase text-charcoal/50">
-            Kathmandu · Nepal
+            Panchkhal · Kavrepalanchok
           </div>
         </nav>
       </aside>

@@ -13,11 +13,7 @@ interface StoryStopProps {
   isLast: boolean;
 }
 
-const ZONE_LABEL: Record<Story["zone"], string> = {
-  mountain: "Himalaya",
-  hill: "Mid-Hills",
-  terai: "Terai",
-};
+// Zone label removed — now using story.label from data
 
 /**
  * Full-viewport story section. On one side: a massive organic terrain blob
@@ -122,7 +118,7 @@ export default function StoryStop({ story, index, isFirst, isLast }: StoryStopPr
           className="max-w-xl bg-cream/80 backdrop-blur-sm rounded-3xl p-8 md:p-12 lg:p-14 shadow-xl shadow-charcoal/5"
         >
           <div className="text-[11px] tracking-[0.4em] uppercase text-saffron-dark/80 mb-5">
-            Stop · 0{index + 1} · {ZONE_LABEL[story.zone]}
+            Stop · 0{index + 1} · {story.label}
           </div>
           <h3 className="font-serif text-4xl md:text-5xl lg:text-6xl text-charcoal leading-[1.05] mb-6">
             {story.title}

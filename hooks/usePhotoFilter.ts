@@ -4,10 +4,10 @@ import { useMemo, useState } from "react";
 import type { Photo, PhotoCategory } from "@/data/photos";
 
 const CATEGORY_KEYWORDS: Record<PhotoCategory, string[]> = {
-  education: ["education", "school", "learn", "class", "student", "book"],
-  healthcare: ["healthcare", "health", "clinic", "doctor", "medical", "hospital", "care"],
-  community: ["community", "village", "women", "water", "harvest", "family"],
-  events: ["event", "fundraiser", "festival", "volunteer", "relief", "summit"],
+  education: ["education", "school", "learn", "class", "student", "book", "scholarship"],
+  health: ["health", "eye", "screening", "glasses", "clinic", "doctor", "medical", "care"],
+  livelihoods: ["livelihood", "dairy", "farming", "cooperative", "microloan", "kiln", "cow"],
+  community: ["community", "gathering", "volunteer", "workshop", "awareness", "youth"],
 };
 
 function queryToCategories(query: string): PhotoCategory[] {

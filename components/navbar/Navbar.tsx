@@ -50,8 +50,8 @@ export default function Navbar({ onOpenPhotos }: NavbarProps) {
             </svg>
           </button>
 
-          <div className="absolute left-1/2 -translate-x-1/2 font-serif text-charcoal text-sm md:text-base tracking-[0.3em] md:tracking-[0.45em] uppercase select-none">
-            United&nbsp;Hope&nbsp;Nepal
+          <div className="absolute left-1/2 -translate-x-1/2 font-serif text-charcoal text-[10px] md:text-xs tracking-[0.25em] md:tracking-[0.35em] uppercase select-none whitespace-nowrap">
+            Grande&nbsp;Social&nbsp;Foundation
           </div>
 
           <div className="flex items-center gap-3 md:gap-5">
@@ -70,9 +70,6 @@ export default function Navbar({ onOpenPhotos }: NavbarProps) {
                 NP
               </button>
             </div>
-            <button className="border border-charcoal/60 text-charcoal hover:bg-charcoal hover:text-cream transition-colors px-3 md:px-5 py-2 text-[10px] md:text-[11px] tracking-[0.25em] uppercase">
-              Donate
-            </button>
           </div>
         </div>
       </header>

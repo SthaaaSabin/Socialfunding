@@ -24,12 +24,12 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
           value={value}
           onChange={(e) => onChange(e.target.value)}
           type="text"
-          placeholder="Search by category — education, healthcare, community, events"
+          placeholder="Search by category — education, health, livelihoods, community"
           className="w-full bg-card-white border border-charcoal/10 rounded-full pl-12 pr-5 py-3.5 text-sm text-charcoal placeholder:text-charcoal/40 focus:outline-none focus:border-saffron transition-colors"
         />
       </div>
       <div className="mt-4 flex flex-wrap justify-center gap-2 text-[10px] tracking-[0.25em] uppercase text-charcoal/50">
-        {["education", "healthcare", "community", "events"].map((c) => (
+        {["education", "health", "livelihoods", "community"].map((c) => (
           <button
             key={c}
             onClick={() => onChange(c)}

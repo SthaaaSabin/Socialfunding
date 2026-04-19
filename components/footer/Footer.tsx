@@ -7,20 +7,20 @@ export default function Footer() {
         {/* Brand line */}
         <div className="text-center mb-20">
           <div className="font-serif text-2xl md:text-3xl tracking-[0.3em] uppercase text-charcoal">
-            United&nbsp;Hope&nbsp;Nepal
+            Grande&nbsp;Social&nbsp;Foundation
           </div>
         </div>
 
         {/* Columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
           <Column title="Location">
-            <p>Thamel, Ward 29</p>
-            <p>Kathmandu 44600</p>
-            <p>Nepal</p>
+            <p>Grande Social Foundation</p>
+            <p>Panchkhal Municipality</p>
+            <p>Kavrepalanchok, Nepal</p>
           </Column>
           <Column title="Contact">
-            <p>hello@unitedhopenepal.org</p>
-            <p>+977 1 4410 220</p>
+            <p>info@grandesocialfoundation.org</p>
+            <p>+977-01-XXXXXXX</p>
             <p className="mt-3 text-charcoal/50 text-xs">Mon – Fri · 9:00 – 17:00</p>
           </Column>
           <Column title="Socials">
@@ -35,7 +35,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-20 pt-8 border-t border-charcoal/10 text-center text-xs text-charcoal/50">
-          © {new Date().getFullYear()} United Hope Nepal · All rights reserved
+          © {new Date().getFullYear()} Grande Social Foundation. All rights reserved.
         </div>
       </div>
     </footer>

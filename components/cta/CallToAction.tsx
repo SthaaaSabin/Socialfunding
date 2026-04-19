@@ -32,22 +32,22 @@ export default function CallToAction() {
 
       <div ref={ref} className="relative max-w-3xl mx-auto text-center px-6 pt-24">
         <div className="text-[10px] md:text-xs tracking-[0.4em] uppercase text-charcoal/50 mb-6">
-          Every road continues
+          Be part of the story
         </div>
         <h2 className="font-serif text-4xl md:text-6xl text-charcoal leading-[1.05]">
-          The Road Doesn&apos;t End Here
+          Every Child Deserves a Chance
         </h2>
         <p className="mt-6 font-sans text-base md:text-lg text-charcoal/60 max-w-xl mx-auto leading-relaxed">
-          Help us reach further. Every contribution builds another path for a child,
-          a mother, a village — carried forward by all of us.
+          From study tables to eyeglasses, from microloans to school shoes — small
+          support creates lasting change. Be part of the Grande Social Foundation story.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <button className="bg-saffron hover:bg-saffron-dark text-charcoal px-8 py-4 text-[11px] tracking-[0.3em] uppercase transition-colors">
-            Donate Now
+            Partner With Us
           </button>
           <button className="border border-saffron text-saffron-dark hover:bg-saffron hover:text-charcoal px-8 py-4 text-[11px] tracking-[0.3em] uppercase transition-colors">
-            Get Involved
+            Contact Us
           </button>
         </div>
       </div>
